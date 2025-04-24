@@ -129,7 +129,7 @@ body {
 .video-section {
   position: relative;
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   overflow: hidden;
 }
 
@@ -323,6 +323,19 @@ body {
     width: calc(100% - 10%);
     margin: 50% 5%;
     aspect-ratio: 1 / 1;
+  }
+
+  .caixa-do-texto{
+    font-size: 1.5em;
+  }
+
+  .video-wrapper iframe {
+    width: 90%;   /* Faz o vídeo ocupar toda a largura da tela */
+    height: 100%;  /* Ajusta a altura proporcionalmente */
+  }
+
+  .videoyoutube{
+    height: 40vh;
   }
 }
 
